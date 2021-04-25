@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group 'top.tanruixin.kveditor'
+version '0.0.1'
+
+sourceCompatibility = 1.8
+
+repositories {
+    maven {url 'https://maven.aliyun.com/repository/public'}
+    maven {url 'https://maven.aliyun.com/repository/google'}
+    maven {url 'https://maven.aliyun.com/repository/jcenter'}
+    maven {url 'https://maven.aliyun.com/repository/central'}
+}
+
+dependencies {
+    testCompile 'junit:junit:4.12'
+}
